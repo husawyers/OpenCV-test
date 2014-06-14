@@ -39,7 +39,7 @@ Asteroid::~Asteroid(void)
 {
 }
 
-bool Asteroid::update(Ship& ship)
+bool Asteroid::update(Ship& ship, int speed)
 {
 	// Test collision
 	if(intersects(ship.sprite, sprite))
@@ -47,7 +47,7 @@ bool Asteroid::update(Ship& ship)
 		return true;
 	}
 	
-	sprite->move(0.0f, 4.0f);
+	sprite->move(0.0f, 4.0f * speed);
 	return false;
 }
 int Asteroid::getPosition()

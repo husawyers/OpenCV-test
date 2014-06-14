@@ -41,6 +41,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	Ship ship;
 	Asteroid *currAsteroid = new Asteroid();
 	bool go = false;
+	int speedMultiplier = 1;
 
 	while(window.isOpen())
 	{
@@ -95,7 +96,7 @@ int _tmain(int argc, _TCHAR* argv[])
 			}
 		}
 
-		if(go && currAsteroid->update(ship))
+		if(go && currAsteroid->update(ship, speedMultiplier))
 		{
 			cout << "Game over!\n";
 			window.close();
@@ -105,6 +106,7 @@ int _tmain(int argc, _TCHAR* argv[])
 			delete currAsteroid;
 			currAsteroid = 0;
 			currAsteroid = new Asteroid();
+			speedMultiplier++;
 		}
 
 		// Draw tracking

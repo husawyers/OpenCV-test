@@ -1,4 +1,4 @@
-﻿Build started 13/06/2014 22:30:15.
+﻿Build started 14/06/2014 17:45:33.
      1>Project "C:\Users\Hebron\Desktop\Interests\programming\C++\OpenCV test\OpenCV-test\OpenCV test\OpenCV test\OpenCV test.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\OpenCV test.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -6,9 +6,9 @@
          All outputs are up-to-date.
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Hebron\Desktop\Interests\programming\C++\OpenCV test\OpenCV-test\SFML-2.1\include" /I"C:\Users\Hebron\Desktop\Interests\programming\C++\OpenCV test\OpenCV-test\opencv\build\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\OpenCV test.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "OpenCV test.cpp"
          OpenCV test.cpp
-     1>c:\users\hebron\desktop\interests\programming\c++\opencv test\opencv-test\opencv test\opencv test\opencv test.cpp(70): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
      1>c:\users\hebron\desktop\interests\programming\c++\opencv test\opencv-test\opencv test\opencv test\opencv test.cpp(71): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
      1>c:\users\hebron\desktop\interests\programming\c++\opencv test\opencv-test\opencv test\opencv test\opencv test.cpp(72): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\hebron\desktop\interests\programming\c++\opencv test\opencv-test\opencv test\opencv test\opencv test.cpp(73): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
        ManifestResourceCompile:
          All outputs are up-to-date.
        Link:
@@ -31,4 +31,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.65
+Time Elapsed 00:00:02.41

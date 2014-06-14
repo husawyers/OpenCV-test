@@ -8,7 +8,7 @@ public:
 	Asteroid();
 	virtual ~Asteroid(void);
 
-	bool update(Ship& ship);
+	bool update(Ship& ship, int speed);
 	int getPosition();
 	bool intersects(Sprite* a, Sprite* b);
 };
